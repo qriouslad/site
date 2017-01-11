@@ -40,7 +40,15 @@ The Chassis config files are stored in the theme repository and copied to Chassi
 	$ git clone --recursive git@github.com:wp-id/site.git content
 	$ vagrant up
 
-This will take a few moments to run as Chassis configures your machine. You may wish to get a coffee while you wait for vagrant to provision. When the box is ready, you can login to the site:
+This will take a few moments to run as Chassis configures your machine. You may wish to get a coffee while you wait for vagrant to provision.
+
+The remaining configuration takes place after the virtual machine is provisioned.
+
+	$ vagrant ssh
+	$ wp theme activate wpid
+	$ wp rewrite structure '/%postname%/'
+
+You can now login to the site:
 
 * URL: http://wp-id.local/wp/wp-admin
 * Username: `admin`
