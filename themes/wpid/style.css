@@ -1,0 +1,35 @@
+/*
+Theme Name: WP-ID.org
+Theme URI: https://wp-id.org
+Author: WP-ID.org
+Author URI: https://wp-id.org
+Description: WP-ID.org Theme
+Version: 0.1.0
+License: GNU General Public License v2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body {
+	background-color: #21759b;
+	color: #fff;
+	border: 0;
+	margin: 0;
+	overflow: hidden;
+	text-align: center;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+.wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 300px;
+	margin-top: -150px;
+	margin-left: -200px;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: 400;
+}
