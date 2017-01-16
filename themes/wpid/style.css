@@ -23,14 +23,19 @@ body {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	width: 600px;
+	width: 500px;
 	height: 300px;
-	margin-top: -150px;
-	margin-left: -200px;
+	margin-top: -200px;
+	margin-left: -250px;
 }
 
 h1 {
 	font-size: 2em;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 1.6em;
 	font-weight: 400;
 }
 
@@ -58,6 +63,7 @@ h1 {
 	list-style: none;
 	margin-bottom: 0;
 	margin-left: 0;
+	padding-left: 0;
 }
 
 .social-navigation li {
@@ -70,10 +76,10 @@ h1 {
 	border-radius: 40px;
 	color: #fff;
 	display: inline-block;
-	height: 40px;
+	height: 60px;
 	margin: 0 1em 0.5em 0;
 	text-align: center;
-	width: 40px;
+	width: 60px;
 }
 
 .social-navigation a:hover,
@@ -82,8 +88,8 @@ h1 {
 }
 
 .social-navigation .icon {
-	height: 16px;
-	top: 12px;
-	width: 16px;
-	vertical-align: top;
+    height: 30px;
+    top: 16px;
+    width: 30px;
+    vertical-align: top;
 }

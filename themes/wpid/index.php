@@ -13,14 +13,13 @@
 				esc_attr__( 'WordCamp Denpasar 2016 Logo', 'wpid' )
 			); ?>
 			<h1>Selamat Datang di Komunitas WordPress Indonesia!</h1>
+
 			<div class="social-navigation">
-				<div class="menu-social-container">
-					<ul id="menu-social" class="social-links-menu">
-						<li><a href="https://github.com/wp-id"><svg class="icon icon-github" aria-hidden="true" role="img"> <use href="#icon-github" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-github"></use> </svg></a></li>
-						<li><a href="https://www.facebook.com/groups/WordPressDevID/"><svg class="icon icon-facebook" aria-hidden="true" role="img"> <use href="#icon-facebook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-facebook"></use> </svg></a></li>
-						<li><a href="https://chat.wp-id.org"><svg class="icon icon-slack" aria-hidden="true" role="img"> <use href="#icon-slack" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-slack"></use> </svg></a></li>
-					</ul>
-				</div>
+				<ul id="menu-social" class="social-links-menu">
+					<li><a href="https://github.com/wp-id" target="_blank"><svg class="icon icon-github" aria-hidden="true" role="img"> <use href="#icon-github" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-github"></use> </svg></a></li>
+					<li><a href="https://www.facebook.com/groups/WordPressDevID/" target="_blank"><svg class="icon icon-facebook" aria-hidden="true" role="img"> <use href="#icon-facebook" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-facebook"></use> </svg></a></li>
+					<li><a href="https://chat.wp-id.org" target="_blank"><svg class="icon icon-slack" aria-hidden="true" role="img"> <use href="#icon-slack" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-slack"></use> </svg></a></li>
+				</ul>
 			</div>
 		</div>
 		<?php wp_footer(); /* required */ ?>
