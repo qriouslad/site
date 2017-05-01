@@ -37,7 +37,7 @@ The Chassis config files are stored in the theme repository and copied to Chassi
 
 	$ git clone --recursive https://github.com/Chassis/Chassis wp-id.org
 	$ cd wp-id.org
-	$ git clone --recursive git@github.com:wp-id/site.git content
+	$ git clone --recursive https://github.com/wp-id/site.git content
 	$ vagrant up
 
 This will take a few moments to run as Chassis configures your machine. You may wish to get a coffee while you wait for vagrant to provision.
